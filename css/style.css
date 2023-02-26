@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+}
+
+.month {
+  margin-top: 20px;
+}
+
+.year-picker {
+  display: flex;
+  margin-left: 80px;
+}
+
+.year {
+  margin: 22px 20px 0px;
+}
+
+.pre-year > pre,
+.next-year > pre {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.date-format {
+  margin: 22px 40px;
+  text-align: right;
+}
+
+.calender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1em;
+}
