@@ -11,14 +11,23 @@
     <div class="container">
       <h1>Calender</h1>
       <div class="header">
-        <span class="month">Feb</span>
+        <div class="month-picker">
+          <span class="pre-month">
+            <pre><</pre>
+          </span>
+          <div class="month">Feb</div>
+
+          <span class="next-month">
+            <pre>></pre>
+          </span>
+        </div>
 
         <div class="year-picker">
           <span class="pre-year">
             <pre><</pre>
           </span>
 
-          <div class="year">2023</div>
+          <div class="year"></div>
 
           <span class="next-year">
             <pre>></pre>
@@ -36,8 +45,8 @@
         <div class="days">Thu</div>
         <div class="days">Fri</div>
         <div class="days">Sat</div>
-        <div class="dates"></div>
       </div>
+      <div class="dates"></div>
     </div>
 
     <script src="js/calender.js"></script>

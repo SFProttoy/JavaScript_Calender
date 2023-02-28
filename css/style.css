@@ -13,8 +13,20 @@ h1 {
   display: flex;
 }
 
+.month-picker {
+  display: flex;
+  margin-left: 80px;
+}
+
 .month {
-  margin-top: 20px;
+  margin: 22px 20px 0px;
+}
+
+.pre-month > pre,
+.next-month > pre {
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 .year-picker {
@@ -30,6 +42,7 @@ h1 {
 .next-year > pre {
   margin-bottom: 20px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .date-format {
@@ -41,4 +54,11 @@ h1 {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 1em;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1em;
+  margin-top: 15px;
 }
